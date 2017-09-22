@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Education_RTARF_FN</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="../css/style-dot.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../css/table.css" media="all" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script language="JavaScript1.2" src="../js/js_center.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+  
+</head>
+<body>
+  
+<div id="title-content">
+      <div class="page-name">เพิ่มข้อจัดการผู้เรียน</div>
+</div>
+
+<div class="frame-content">     
+     <table width="100%" border="0" class="form-search">
+        <tr>
+          <th colspan="6">&nbsp;เพิ่มข้อข้อมูล</th>
+        </tr>
+        <tr>
+          <td width="10%" class="right-text">ปีงบประมาณ:</td>
+          <td width="20%"><span class="left-text">
+           <input type="text" name="textfield1" id="textfield1" disabled="true" value="2560"/>
+          </span></td>
+          <td width="12%" class="right-text">รหัสหลักสูตร:</td>
+          <td colspan="3"><span class="left-text">
+             <input type="text" name="text" id="text" maxlength="4" value="xxxx" disabled="true">
+          </span></td>
+        </tr>
+        <tr>
+          <td width="10%" class="right-text">ชื่อหลักสูตร:</td>
+          <td width="20%"><span class="left-text">
+           <textarea name="textfield2" id="textfield2" class="right-text" rows="5" cols="40" disabled="true">xxxxxxxxxxxxxxxxx xxxx xx</textarea>
+          </span></td>
+          <td width="12%" class="right-text"></td>
+          <td colspan="3"><span class="left-text">
+            </span></td>
+        </tr>
+        <tr>
+          <td width="10%" class="right-text">จำนวนผู้เรียน:</td>
+          <td width="20%"><span class="left-text"><input type="text" name="text" id="text" maxlength="4" disabled="true" value="xx"></span></td>
+          <td width="12%" class="right-text"></td>
+          <td colspan="3"><span class="left-text"></span></td>
+        </tr>
+        <tr>
+          <td class="right-text">ระยะเวลาตั้งแต่วันที่:</td>
+          <td><input name="textfield" type="text" class="right-text" id="textfield" value="xx/xx/xxxx" size="10" maxlength="10" disabled="true"/></td>
+          <td>ถึง</td>
+          <td><input name="textfield" type="text" class="right-text" id="textfield" value="xx/xx/xxxx" size="10" maxlength="10" disabled="true"/></td>
+        </tr>
+        <tr>
+          <td class="right-text">สถานที่:</td>
+          <td><textarea name="textfield2" id="textfield2" class="right-text" rows="2" cols="15" disabled="true">x xxxxxxxxxxxxxx</textarea></td>
+          <td></td>
+          <td></td> 
+        </tr>
+    </table>
+    <table width="100%" border="0" style="font-size:13px">
+        <tr>
+          <td align="right">
+          	<input name="button" type="submit" class="btn" id="button1" value="บันทึก"/>            
+            <input name="button2" type="submit" class="btn" id="button" value="ย้อนกลับ" onclick="location.href='EDC101_S.html'"/>
+          </td>          
+       </tr>
+       <tr>
+         <td align="left">
+           <input type="file"></td>
+         </td>
+       </tr>
+    </table>
+
+  <table border="1" class="table-form" width="100%">
+    <tr>
+      <th width="5%">เลขที่</th>
+      <th width="15%"><span class="left-text">ยศ</span></th>
+      <th width="20%"><span class="left-text">ชื่อ</span></th>
+      <th width="20%"><span class="left-text">สกุล</span></th>
+      <th width="15%"><span class="left-text">สังกัด</span></th>
+      <th width="15%"><span class="left-text">เหล่า</span></th>
+      <th width="10%">&nbsp;<span class="middlesize"><input name="button" type="submit" class="btn" id="button1" value="เพิ่ม"/></span> </th>
+    </tr>
+    <tr>
+      <td class="middlesize"><input type="text" name="text1" id="text1"  name="select1" id="select1" value="xx01" style="width:90%"></td>
+      <td class="left-text">
+        <select name="select1" id="select1" style="width:90%">
+          <option selected="selected">-- กรุณาเลือก --</option>
+          <option>สิบตรี</option>
+          <option>สิบโท</option>
+          <option>สิบเอก</option>
+          <option>จ่าสิบตรี</option>
+          <option>จ่าสิบโท</option>
+          <option>จ่าสิบเอก</option>
+          <option>ร้อยตรี</option>
+          <option>ร้อยโท</option>
+          <option>ร้อยเอก</option>
+          <option>พันตรี</option>
+          <option>พันโท</option>
+          <option>พันเอก</option>
+          <option>พลตรี</option>
+          <option>พลโท</option>
+          <option>พลเอก</option>
+        </select>&nbsp;<font color="red">*</font>      
+      </td>
+      <td class="middlesize">
+        <input type="text" name="text1" id="text1"  name="select1" id="select1" style="width:90%"> &nbsp;<font color="red" >*</font></td>
+      <td class="middlesize"><input type="text" name="text2" id="text2"  name="select1" id="select1" style="width:90%"> &nbsp;<font color="red">*</font></td>
+      <td class="right-text"><section  name="select1" id="select1" style="width:90%">
+        <select name="select1" id="select1" style="width:90%">
+          <option selected="selected">-- กรุณาเลือก --</option>
+          <option>กง.ทหาร</option>
+          <option>กบ.ทหาร</option>
+          <option>ขว.ทหาร</option>
+          <option>ชด.ทหาร</option>
+          <option>นทพ.</option>
+        </section> </td>
+        <td><select name="select1" id="select1" style="width:90%">
+          <option>ทหารการเงิน</option>
+          <option>ทหารสารบรรณ</option>
+        </section></td>
+      <td class="middlesize" ><img src="../images/icon_delete.png" width="15" height="15"></td>
+      
+    </tr>
+    <td class="middlesize"><input type="text" name="text1" id="text1"  name="select1" id="select1" value="xx02" style="width:90%"></td>
+      <td class="left-text">
+        <select name="select1" id="select1" style="width:90%">
+          <option selected="selected">-- กรุณาเลือก --</option>
+          <option>สิบตรี</option>
+          <option>สิบโท</option>
+          <option>สิบเอก</option>
+          <option>จ่าสิบตรี</option>
+          <option>จ่าสิบโท</option>
+          <option>จ่าสิบเอก</option>
+          <option>ร้อยตรี</option>
+          <option>ร้อยโท</option>
+          <option>ร้อยเอก</option>
+          <option>พันตรี</option>
+          <option>พันโท</option>
+          <option>พันเอก</option>
+          <option>พลตรี</option>
+          <option>พลโท</option>
+          <option>พลเอก</option>
+        </select>&nbsp;<font color="red">*</font>      
+      </td>
+      <td class="middlesize">
+        <input type="text" name="text1" id="text1"  name="select1" id="select1" style="width:90%"> &nbsp;<font color="red" >*</font></td>
+      <td class="middlesize"><input type="text" name="text2" id="text2"  name="select1" id="select1" style="width:90%"> &nbsp;<font color="red">*</font></td>
+      <td class="right-text"><section  name="select1" id="select1" style="width:90%">
+        <select name="select1" id="select1" style="width:90%">
+          <option selected="selected">-- กรุณาเลือก --</option>
+          <option>กง.ทหาร</option>
+          <option>กบ.ทหาร</option>
+          <option>ขว.ทหาร</option>
+          <option>ชด.ทหาร</option>
+          <option>นทพ.</option>
+        </section> </td>
+         <td><select name="select1" id="select1" style="width:90%">
+          <option>ทหารการเงิน</option>
+          <option>ทหารสารบรรณ</option>
+        </section></td>
+      <td class="middlesize" ><img src="../images/icon_delete.png" width="15" height="15"></td>
+    </tr>
+  </table>     
+</div>
+</div>
+</div>
+<div class="frame-content">
+</div> 
+</body>
+</html>

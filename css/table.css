@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+td{padding:4px;}
+select {padding:2px;}
+input {padding:2px;}
+input.btn{padding:1px 5px 1px 5px;}
+
+
+/*--form table data--*/
+.table-form {
+	border:1px solid #e8e8e8 !important;
+	margin:0.5em auto;
+	border-collapse:collapse;
+	text-align:center;
+	width:100%;
+}
+
+.table-form th{
+	color:#fff;
+	background:url(../images/bg_th_blue.gif) repeat-x; height:30px;	
+}
+
+.table-form tr.odd{
+	background-color:#ebebeb;
+}
+
+.table-form td.left-text {
+	text-align:left;
+}
+.table-form td.right-text {
+	text-align:right;
+}		
+
+
+/*--form search--*/
+
+.form-search{ 
+	border:1px solid #e8e8e8 !important; 
+	border-collapse:collapse; 
+	width:100%; 
+	margin-bottom:0.5em;
+	text-align:left;
+}
+
+.form-search th{ 
+	color:#fff;
+	background:url(../images/bg_th_gray.gif) repeat-x; height:30px;
+	text-align:left;
+}
+.form-search td.right-text {
+	text-align:right;
+}	
+
+.form-search td.center-text {
+	text-align:center;
+}	

@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+body {	
+	font-family:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0; 
+	padding:0;
+	height: 100%;
+}
+
+li {
+	height: 21px;
+}
+
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+	position: relative; 
+	height: 76px;
+	background-color:#ffcc00;
+}
+
+/* Section
+-----------------------------------------------------------------------------*/
+section {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+/* Article
+-----------------------------------------------------------------------------*/
+article {
+	padding: 5px 5px 5px 149px;
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+	text-align:center;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+nav {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	float: left;
+	width: 144px;
+	margin-left: -100%;
+	position: relative;
+}
+nav ul, nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+nav ul {
+	position: relative;
+  	z-index: 597;
+  	float: left;
+}
+
+nav ul li {
+  	float: left;
+  	min-height: 1px;
+  	line-height: 1em;
+  	vertical-align: middle;
+	
+}
+nav ul li.hover,nav ul li:hover {
+  	position: relative;
+	z-index: 599;
+  	cursor: default;
+}
+nav ul ul {
+  	visibility: hidden;
+  	position: absolute;
+  	top: 100%;
+  	left: 0;
+  	z-index: 598;
+  	width: 100%;
+}
+nav ul ul li {
+  	float: none;
+}
+nav ul ul,nav ul ul ul {
+  	top: -1px;
+  	left: 99%;
+}
+nav ul li:hover > ul {
+  	visibility: visible;
+}
+nav ul li {
+  	float: none;
+}
+nav a {
+  	display: block;
+}
+
+nav:after,nav ul:after {
+  	content: '';
+  	display: block;
+  	clear: both;
+}
+
+nav ul {
+  	background: #ffffff;
+  	border: 1px solid #666666;
+  	padding: 1px;
+  	width: 140px;
+  	color: #000000;
+}
+
+nav ul li {
+  	color: #4e2721;
+  	position: relative;
+}
+
+nav ul li.hover,
+nav ul li:hover {
+  	background: #666666 ;
+  	color: #000000;
+}
+
+nav ul li.hover > a,nav ul li:hover > a {
+  	color: #ffffff;
+  	border: 1px solid #666666;
+}
+
+nav ul ul {
+  	width: 144px;
+}
+
+nav a {
+  	border: 1px solid transparent;
+  	padding: 3px 1px;
+}
+
+nav a:link,nav a:visited {
+  	color: #000000;
+  	text-decoration: none;
+}
+
+nav a:hover {
+  	background: #666666;
+  	color: #000000;
+}
+
+/* arrow */
+nav .has-sub:hover > a:after,nav .has-sub.hover > a:after {
+  	border-color: transparent transparent transparent #ffffff;
+}
+
+/* arrow */
+nav .has-sub > a:after {
+  	content: '';
+  	width: 0px;
+  	height: 0px;
+  	border-style: solid;
+  	border-width: 4px 0 4px 4px;
+  	border-color: transparent transparent transparent #CCCCCC;
+  	position: absolute;
+  	top: 50%;
+   	right: 5%;
+  	margin-top: -4px;
+}
+
+#breadcrumbs{
+	width: 100%;
+	height:21px;
+	padding: 0 0 0 144px;
+}
+
+#breadcrumbs ul li a { 
+	padding:0 13px 0px 0; 
+	background:transparent url(../images/krungsri-breadcrumb-arrow.png) no-repeat right center;
+}
+
+#breadcrumbs ul li a:link, #breadcrumbs li a:visited { 
+	text-decoration:none; 
+	color:#000000; 
+}
+
+#breadcrumbs ul li a:hover, #breadcrumbs li a:focus { 
+	text-decoration:underline ; 
+	color:#666666; 
+}
+
+#breadcrumbs ul li {
+	font-size:10px;
+	color:#666666;
+	float:left; 
+	padding-left:5px; 
+}
+
+#breadcrumbs ul, li { 
+	list-style-type:none; 
+	padding:0; 
+	margin:0; 
+}
+
+#breadcrumbs ul{ 
+	border-top:1px solid #CCCCCC; 
+	border-bottom:1px solid #CCCCCC; 
+	background-color:#FFFFFF; 
+	line-height: 20px; 
+	overflow:auto; 
+	font-weight:bold; 
+}
+
+
+
+div.logon{
+	position: absolute; 
+	right:0px;
+	width:377px;
+	height: 76px;
+	padding-top:15px;
+}
+div.logon table{
+	width: 100%;
+}
+
+div.logon table input[type='text']{
+	width: 55px;
+}
+
+div.logon table input[type='password']{
+	width: 55px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Education_RTARF_FN</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="../css/style-dot.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../css/table.css" media="all" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script language="JavaScript1.2" src="../js/js_center.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+  
+</head>
+<body>
+  
+<div id="title-content">
+      <div class="page-name">เพิ่มประเมินวิทยากร</div>
+</div>
+
+<div class="frame-content">     
+     <table width="100%" border="0" class="form-search">
+        <tr>
+          <th colspan="6">&nbsp;เพิ่มข้อข้อมูล</th>
+        </tr>
+        <tr>
+          <td width="10%" class="right-text">วันที่:</td>
+          <td width="40%"><span class="left-text">
+             <input name="textfield" type="text" class="right-text" id="textfield" value="" size="10" maxlength="10"/>
+            <img src="../images/Calendar-icon-2.png" alt="" width="18" height="18" />
+          </span></td>
+          <td width="12%" class="right-text"></td>
+          <td width="40%"><span class="left-text"></span></td>
+        </tr>
+        <tr>
+          <td width="10%" class="right-text">ปีงบประมาณ:</td>
+          <td width="40%"><span class="left-text">
+            <select name="select1" id="select1" style="width:90%">
+              <option selected="selected">-- กรุณาเลือก --</option>
+              <option>2561</option>
+              <option>2560</option>
+              <option>2559</option>
+              <option>2558</option>
+           </select>&nbsp;<font color="red">*</font>
+          </span></td>
+          <td width="12%" class="right-text">ชื่อหลักสูตร:</td>
+          <td width="40%"><span class="left-text"> <select name="select1" id="select1" style="width:90%">
+              <option selected="selected">-- กรุณาเลือก --</option>
+              <option>xxxxxxxxxxxxxxx</option>
+              <option>xxxxxxxxxxxxx</option>
+              <option>xxxxxxxxxxxxx</option>
+              <option>xxxxxxxxxxxxxx</option>
+           </select>&nbsp;<font color="red">*</font></span></td>
+        </tr>
+        <tr>
+          <td width="10%" class="right-text">ชื่อวิชา:</td>
+          <td width="40%"><span class="left-text">
+            <select name="select1" id="select1" style="width:90%">
+              <option selected="selected">-- กรุณาเลือก --</option>
+              <option>xxxxx 1</option>
+              <option>xxxxx 2</option>
+              <option>xxxxx 3</option>
+              <option>xxxxx 4</option>
+           </select>&nbsp;<font color="red">*</font>
+          </span></td>
+          <td width="12%" class="right-text">วิทยากร:</td>
+          <td width="40%"><span class="left-text"> <select name="select1" id="select1" style="width:90%">
+              <option selected="selected">-- กรุณาเลือก --</option>
+              <option>xxxxxxxxxxxxxxx</option>
+              <option>xxxxxxxxxxxxx</option>
+              <option>xxxxxxxxxxxxx</option>
+              <option>xxxxxxxxxxxxxx</option>
+           </select>&nbsp;<font color="red">*</font></span></td>
+        </tr>
+        <tr>
+          <td colspan="4" class="left-text"><input name="button" type="submit" class="btn" id="button1" value="แสดงแบบประเมิน"/></td>
+          
+    </table>
+    <table width="100%" border="0" style="font-size:13px">
+        <tr>
+          <td align="right">
+          	<input name="button" type="submit" class="btn" id="button1" value="บันทึก"/>            
+            <input name="button2" type="submit" class="btn" id="button" value="ย้อนกลับ" onclick="location.href='EDC110_S.html'"/>
+          </td>          
+       </tr>
+    </table>
+</div>
+</div>
+</div>
+<div class="frame-content">
+    <table width="100%" border="1" class="table-form">
+      <tr>
+        <th>หัวข้อ</th>
+        <th width="12%">คะแนนเฉลี่ย</th>
+      </tr>
+      <tr>
+        <td class="left-text">&nbsp;1. xxxxxxxxxxxxxxxxxx</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="left-text">&nbsp;&nbsp; 1.1. xxxxxxxxxxxxxxxxxx</td>
+        <td><input name="textfield" type="text" class="right-text" id="textfield" value="0.00" size="10" maxlength="10"/></td>
+      </tr>
+      <tr>
+        <td class="left-text">&nbsp;&nbsp; 1.2. xxxxxxxxxxxxxxxxxx</td>
+        <td><input name="textfield" type="text" class="right-text" id="textfield" value="0.00" size="10" maxlength="10"/></td>
+      </tr>
+      <tr>
+        <td class="left-text">&nbsp;2. xxxxxxxxxxxxxxxxxx</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="left-text">&nbsp;&nbsp; 2.1. xxxxxxxxxxxxxxxxxx</td>
+        <td><input name="textfield" type="text" class="right-text" id="textfield" value="0.00" size="10" maxlength="10"/></td>
+      </tr>
+    </table>
+    <table width="100%" border="1" class="table-form">
+        <tr>
+          <th>ข้อเสอแนะ ผู้บรรยาย</th>
+        </tr>
+        <tr>
+          <td><textarea name="dd" id="dd" cols="100" rows="10"></textarea> </td>
+        </tr>
+      </table>
+</div> 
+</body>
+</html>

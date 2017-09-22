@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Education_RTARF_FN</title>
+<link rel="stylesheet" type="text/css" href="css/style-dot.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/table.css" media="all" />
+
+<!--  jQuery library for main menu-->
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<!--  jCarousel library
+--><script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<!--  jCarousel skin stylesheet
+-->
+<link rel="stylesheet" type="text/css" href="skins/tango/skin.css" />
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+    	wrap: 'circular',
+		scroll: 1	
+    });
+});
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+
+<!--Toggle slide hide menu-->
+<link rel="stylesheet" type="text/css" href="css/toggle-navmenu.css" media="screen" />
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$(".toggle_container").hide(); //on load
+
+	$("h2.trigger").click(function(){
+		$(this).toggleClass("active").next().slideToggle(400); //for nav menu ,click can set "slow,fast"
+	});
+
+	$(".move").click(function(){
+		$(this).toggleClass("active").next().slideToggle(400); //button slide hide main menu
+	});
+
+});
+
+function insertIt() { 
+var _y = document.getElementById('frameDiv'); 
+var _x = window.frames[0].document.body.innerhtml; 
+_y.innerhtml = _x 
+} 
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="profile-user">
+      <ul>
+        <li><img src="images/ic_user.png" />ผู้ใช้ : ชื่อ นามสกุล&nbsp;&nbsp;
+        <!--<img src="images/ic_setting.png" /><a href="#">เปลี่ยนรหัสผ่าน</a>--></li>
+        <li><img src="images/ic_logout.png" /><a href="#">ออก</a></li>
+      </ul>
+    </div>
+  </div> 
+  <div id="sidebar">
+    <div class="system"><b>&nbsp; </b></div>
+    <div id="nav">
+      <h2 class="trigger"><a href="#">&nbsp;ข้อมูลพื้นฐาน</a></h2>
+        <div class="toggle_container2">
+        <ul>
+          <li>&nbsp;<a href="EDC/EDC113_S.html" target="iframe1">หมวดวิชา</a></li>
+          <li>&nbsp;<a href="EDC/EDC114_S.html" target="iframe1">หน่วยวิทยากร</a></li>
+          <li>&nbsp;<a href="EDC/EDC115_S.html" target="iframe1">สังกัดนักเรียน</a></li>
+          <li>&nbsp;<a href="EDC/EDC116_S.html" target="iframe1">เหล่า</a></li>
+
+          <li>&nbsp;<a href="EDC/EDC101_S.html" target="iframe1">จัดการวิชา</a></li>
+          <li>&nbsp;<a href="EDC/EDC102_S.html" target="iframe1">จัดการหลักสูตร</a></li>
+          <li>&nbsp;<a href="EDC/EDC103_S.html" target="iframe1">จัดการผู้เรียน</a></li>
+          <li>&nbsp;<a href="EDC/EDC108_S.html" target="iframe1">แบบประเมินหลักสูตร</a></li>
+          <li>&nbsp;<a href="EDC/EDC109_S.html" target="iframe1">แบบประเมินวิทยากร</a></li>
+        </ul>
+        </div>
+      <h2 class="trigger"><a href="#">&nbsp;การดำเนินการ</a></h2>
+      <div class="toggle_container2"> <!-- hide menu -> toggle_container, expand menu -> toggle_container2-->
+        <ul>
+          <li>&nbsp;<a href="EDC/EDC104_S.html" target="iframe1">บันทึกทะเบียนคุมวันลา</a></li>
+          <li>&nbsp;<a href="EDC/EDC105_S.html" target="iframe1">บันทึกคะแนนการสอบ</a></li>
+          <li>&nbsp;<a href="EDC/EDC106_S.html" target="iframe1">บันทึกประเมินคุณลักษณะ</a></li>
+          <li>&nbsp;<a href="EDC/EDC107_S.html" target="iframe1">บันทึกค่าตอบแทนวิทยากร</a></li>
+          <li>&nbsp;<a href="EDC/EDC110_S.html" target="iframe1">บันทึกประเมินวิทยากร</a></li>
+          <li>&nbsp;<a href="EDC/EDC111_S.html" target="iframe1">บันทึกประเมินหลักสูตร</a></li>
+          <li>&nbsp;<a href="EDC/EDC112_S.html" target="iframe1">บันทึกจบหลักสูตร</a></li>
+		    </ul>
+      </div>
+      <h2 class="trigger"><a href="#">&nbsp;รายงาน</a></h2>
+      <div class="toggle_container2">
+        <ul>
+          <li>&nbsp;<a href="EDC/EDCR101_S.html" target="iframe1">รายงานวิชาหลักสูตร</a></li>
+          <li>&nbsp;<a href="EDC/EDCR102_S.html" target="iframe1">สรุปสถานภาพการลา</a>
+          <li>&nbsp;<a href="EDC/EDCR103_S.html" target="iframe1">ผลประเมินคุณลักษณะ</a>
+          <li>&nbsp;<a href="EDC/EDCR104_S.html" target="iframe1">ผลประเมินวิทยากร</a>
+          <li>&nbsp;<a href="EDC/EDCR105_S.html" target="iframe1">ผลประเมินหลักสูตร</a>
+          <li>&nbsp;<a href="EDC/EDCR106_S.html" target="iframe1">สรุปค่าตอบแทนวิทยากร</a> </li>
+          <li>&nbsp;<a href="EDC/EDCR107_S.html" target="iframe1">ใบประกาศผลการศึกษา</a></li>
+        </ul>
+      </div>
+                 
+	</div>
+    <!--end nav--> 
+  </div>
+  <!--end sidebar-->
+  <div id="main">
+     
+    <!-- End main menu-->
+    <div class="clear-all"></div>
+    <!--</div>-->
+    <!-- End flow-->
+    
+    <div id="frameDiv" class="frame-content">
+	<iframe onload="insertIt();" id="iframe1" name="iframe1" src="" frameborder="0" scrolling="auto" width="910" height="800" align="top" >
+	</iframe>
+    </div>  
+    <!-- end frame-content-->
+    <div id="bottom-content"></div>
+  </div>
+  <!--end main-->
+  
+  <div class="clear-all"></div>
+  <!--<div id="footer">
+    <div class="col1-footer">Copyright ©2011 xxxxx. All RIGHTS RESERVED. </div>
+    <div class="col2-footer">Best Screen Resolution 1280X1024px and IE 7.0 or higher.</div>
+  </div>-->
+  <!--end footer--> 
+</div>
+</body>
+</html>
